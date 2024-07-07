@@ -1,4 +1,5 @@
-# Automate Terraform on Github Actions for Setting Up an Infrastructure on AWS 
+# Automate Terraform on Github Actions for Setting Up an AWS Infrastructure
+
 ## Prerequisites
 
 1. An active AWS account is required
@@ -18,4 +19,4 @@
 
     terraform plan
 
-    terraform apply -auto-approve
+    terraform apply --auto-approve
